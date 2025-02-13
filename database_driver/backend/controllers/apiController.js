@@ -385,6 +385,7 @@ exports.fetchNatIndex = async (req, res) => {
     }
 };
 
+//nathaniel if u see this, this is how i would run some sql in JS.
 //http://localhost:8888/api/total-people/C_001098
 exports.total_people = async (req, res) => {
     const node = req.params.node;
